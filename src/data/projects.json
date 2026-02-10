@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Portal_Berita-Nenavin",
+    "description": "Portal berita dengan fitur CRUD, autentikasi, dan UI modern.",
+    "techStack": ["Laravel", "MySQL", "TailwindCSS", "JavaScript"],
+    "thumbnail": "https://raw.githubusercontent.com/imam-mq/Portal_Berita-Nenavin/main/public/assets/images/thumbnails/Nenavin.gif",
+    "githubUrl": "https://github.com/imam-mq/Portal_Berita-Nenavin",
+    "liveDemo": "https://nenavin.vercel.app/",
+    "features": [
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry Kategori & Tag"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "miniproject",
+    "description": "HealthCare Landing Page adalah sebuah proyek frontend yang dirancang untuk memberikan informasi kesehatan secara interaktif dan modern, khususnya terkait penyakit jantung dan analisis risiko secara sederhana. Website ini dibuat menggunakan React JS dan Tailwind CSS, dengan fokus pada desain yang responsif, bersih, dan mudah digunakan.",
+    "techStack": ["React", "TailwindCSS", "JavaScript"],
+    "thumbnail": "https://raw.githubusercontent.com/imam-mq/miniproject/main/src/assets/MiniPri.gif",
+    "githubUrl": "https://github.com/imam-mq/miniproject",
+    "liveDemo": "https://miniproject-phi-ashen.vercel.app/",
+    "features": [
+      "Melihat informasi kesehatan terkait penyakit jantung",
+      "Mengisi form untuk melakukan analisis risiko penyakit jantung",
+      "Mendapatkan hasil risiko dalam tiga kategori: Tinggi, Sedang, dan Rendah, lengkap dengan indikator ikon berwarna.",
+      "Melihat bagian FAQ (Pertanyaan yang Sering Diajukan) yang tampil secara dinamis dengan fitur accordion."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Uzhma",
+    "description": "Educational web app for heart disease awareness.",
+    "techStack": ["Codeigniter", "CSS", "Boostrap", "JavaScript", "MySQL"],
+    "thumbnail": "https://raw.githubusercontent.com/imam-mq/Uzhma/main/assets/img/UzhmaWi.gif",
+    "githubUrl": "https://github.com/imam-mq/Uzhma",
+    "liveDemo": "https://mahasinuhu.com/",
+    "features": [
+      "Cek Risiko Penyakit Jantung",
+      "Edukasional Konten",
+      "Form Validasi",
+      "Responsive Layout"
+    ]
+  }
+]
