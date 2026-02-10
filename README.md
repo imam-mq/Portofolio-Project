@@ -10,6 +10,5 @@ web portofolio yang dirancang untuk menampilkan portofolio proyek secara dinamis
 
 ## 🚀 Fitur
 * **Dynamic Routing:** Navigasi detail proyek secara otomatis berdasarkan parameter URL.
-* **Interactive UX:** Dilengkapi dengan Splash Screen premium dan transisi menu yang smooth.
+* **Interactive UX:** Dilengkapi dengan Splash Screen dan transisi menu.
 * **Responsive Design:** Tampilan optimal di berbagai perangkat (Mobile & Desktop).
-* **Modular Code:** Struktur komponen yang terorganisir untuk kemudahan pemeliharaan.
