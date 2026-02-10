@@ -1,6 +1,5 @@
 # Portofolio Project
-
-Aplikasi web Single Page Application (SPA) yang dirancang untuk menampilkan portofolio proyek secara dinamis dan interaktif menggunakan **Vue 3** dan **Tailwind CSS**.
+web portofolio yang dirancang untuk menampilkan portofolio proyek secara dinamis dan interaktif menggunakan **Vue 3** dan **Tailwind CSS**.
 
 ## 🛠️ Tech Stack
 * **Framework:** Vue 3 (Composition API)
