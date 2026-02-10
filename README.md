@@ -1,5 +1,21 @@
-# Vue 3 + Vite
+# Portofolio Project - Modern SPA Hub
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Aplikasi web Single Page Application (SPA) yang dirancang untuk menampilkan portofolio proyek secara dinamis dan interaktif menggunakan **Vue 3** dan **Tailwind CSS**.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 🛠️ Tech Stack
+* **Framework:** Vue 3 (Composition API)
+* **Routing:** Vue Router (Dynamic Matching)
+* **Styling:** Tailwind CSS
+* **Build Tool:** Vite
+* **Data Management:** Centralized JSON Data
+
+## 🚀 Fitur Unggulan
+* **Dynamic Routing:** Navigasi detail proyek secara otomatis berdasarkan parameter URL.
+* **Interactive UX:** Dilengkapi dengan Splash Screen premium dan transisi menu yang smooth.
+* **Responsive Design:** Tampilan optimal di berbagai perangkat (Mobile & Desktop).
+* **Modular Code:** Struktur komponen yang terorganisir untuk kemudahan pemeliharaan.
+
+## 📂 Struktur Project
+* `/src/pages`: Beranda, About, Contact, Project, dan ProjectDetails.
+* `/src/components`: Navbar.vue, Splash.vue.
+* `/data`: File JSON untuk manajemen data portofolio.
