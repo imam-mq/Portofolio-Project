@@ -3,35 +3,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* Custom animasi gradient */
-.animated-gradient {
-  background: linear-gradient(270deg, #1a1a2e, #162447, #1f4068, #1a1a2e);
-  background-size: 400% 400%;
-  animation: gradientShift 6s ease infinite;
-}
-
-@keyframes gradientShift {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 
 @layer base {
   body {
-    @apply font-sans;
+    font-family: 'Poppins', sans-serif;
   }
 }
 
-@keyframes blink {
-  0%, 50%, 100% { opacity: 1; }
-  25%, 75% { opacity: 0; }
+/* Reusable Keyframes */
+@keyframes gradientMove {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
 }
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* Utility Classes */
+.animate-gradient {
+  background-size: 400% 400%;
+  animation: gradientMove 15s ease infinite;
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradientMove 8s ease infinite;
+}
+
 .animate-blink {
-  animation: blink 1s infinite;
+  animation: blink 1s step-end infinite;
+}
+
+.animated-gradient {
+  background: linear-gradient(270deg, #1a1a2e, #162447, #1f4068, #1a1a2e);
+  background-size: 400% 400%;
+  animation: gradientMove 6s ease infinite;
 }
